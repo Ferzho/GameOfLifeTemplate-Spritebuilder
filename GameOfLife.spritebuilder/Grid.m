@@ -179,7 +179,7 @@ static const int GRID_COLUMNS = 10;
                         Creature *neighbor = _gridArray[x][y];
                         if (currentCreature.livingNeighbors == 3)
                         {
-                            neighbor.isAlive = TRUE;
+                            currentCreature.isAlive = TRUE;
                         }
                     }
                 }
